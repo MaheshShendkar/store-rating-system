@@ -1,18 +1,55 @@
-# React + Vite
+# 🏪 Store Rating System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack web application where users can browse stores, give ratings & reviews, and owners can manage their stores. Built using **Spring Boot, React, and MySQL** with secure **JWT Authentication**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+### 🔐 Authentication & Authorization
+- User Registration & Login
+- JWT-based authentication
+- Role-based access control (ADMIN, USER, OWNER)
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+### 🏪 Store Management
+- Create, update, delete stores (Owner/Admin)
+- View all stores
+- Search stores by name
 
-Note: This will impact Vite dev & build performances.
+### ⭐ Review System
+- Users can add ratings & reviews
+- View reviews by store
+- Admin can view all reviews
 
-## Expanding the ESLint configuration
+### 👤 User Management
+- Admin can view all users
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🎭 Roles & Permissions
+
+| Role | Permissions |
+|------|------------|
+| ADMIN | Manage users, stores, reviews |
+| OWNER | Manage own stores |
+| USER | Browse stores, add reviews |
+
+---
+
+## 🛠️ Tech Stack
+
+### Backend
+- Java
+- Spring Boot
+- Spring Security
+- JWT Authentication
+- MySQL
+
+### Frontend
+- React.js
+- Axios
+- React Router
+
+---
+
+## 🏗️ Project Structure
