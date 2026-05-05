@@ -1,54 +1,60 @@
 # 🏪 Store Rating System
 
-A full-stack web application where users can browse stores, give ratings & reviews, and owners can manage their stores. Built using **Spring Boot, React, and MySQL** with secure **JWT Authentication**.
+A full-stack web application that allows users to browse stores, give ratings & reviews, and enables store owners and admins to manage the platform.
+
+Built using **Spring Boot (Backend)**, **React (Frontend)**, and **MySQL (Database)** with secure **JWT Authentication**.
 
 ---
 
 ## 🚀 Features
 
-### 🔐 Authentication & Authorization
+### 🔐 Authentication & Security
 - User Registration & Login
 - JWT-based authentication
 - Role-based access control (ADMIN, USER, OWNER)
 
 ### 🏪 Store Management
-- Create, update, delete stores (Owner/Admin)
+- Create store (Owner/Admin)
+- Update & delete own store
 - View all stores
-- Search stores by name
+- Filter/search stores
 
 ### ⭐ Review System
 - Users can add ratings & reviews
-- View reviews by store
-- Admin can view all reviews
+- View reviews of a store
+- Owner can view reviews of their store
 
-### 👤 User Management
-- Admin can view all users
+### 👤 User Management (Admin)
+- View all users
+- Manage system data
 
 ---
 
-## 🎭 Roles & Permissions
+## 🎭 User Roles
 
 | Role | Permissions |
 |------|------------|
 | ADMIN | Manage users, stores, reviews |
-| OWNER | Manage own stores |
-| USER | Browse stores, add reviews |
+| OWNER | Create & manage own stores |
+| USER | Browse stores & add reviews |
 
 ---
 
 ## 🛠️ Tech Stack
 
 ### Backend
-- Java
+- Java 21
 - Spring Boot
 - Spring Security
 - JWT Authentication
+- Hibernate / JPA
 - MySQL
 
 ### Frontend
 - React.js
 - Axios
 - React Router
+- CSS
 
 ---
 
